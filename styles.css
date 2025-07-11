@@ -10,5 +10,14 @@
 body {
     min-height: 100vh;
     background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* background: linear-gradient(to right, blue, rgb(236, 2, 236));  */
+}
+
+.wrapper {
+    background: #fff;
+    /* width: 50%; */
+    padding: 2rem;
 }

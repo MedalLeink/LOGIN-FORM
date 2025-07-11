@@ -19,7 +19,7 @@ body {
 .wrapper {
   background: #fff;
   border-radius: 10px;
-  width: 26%;
+  width: 24%;
   /* padding: 2rem; */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
 }
@@ -52,22 +52,17 @@ body {
 }
 
 .forgot {
-  margin: 16px 20px 40px 20px;
+  margin: 10px 0 24px 20px;
   /* margin-top: 14px; */
 }
 
-.forgot span {
-  width: 100%;
-}
-
 label {
-  font-size: 15px;
+  font-size: 14px;
   color: rgb(46, 46, 46);
-  letter-spacing: 0.1px;
 }
 
 .forgot span input[type="checkbox"] {
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
 }
 
 .forgot span a {
@@ -75,16 +70,20 @@ label {
   text-decoration: none;
   color: rgb(72, 99, 255);
   cursor: pointer;
-  letter-spacing: 0.1px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .login a {
     background: linear-gradient(to right, rgb(72, 99, 255), rgb(171, 1, 171));
-    width: 100%;
-    padding: 4px;
+    width: 88%;
+    padding: 6px;
     border-radius: 50px;
     text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+    color: #fff;
+    font-size: 16px;
 }
 
 

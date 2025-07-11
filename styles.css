@@ -75,7 +75,7 @@ label {
 
 .login a {
     background: linear-gradient(to right, rgb(72, 99, 255), rgb(171, 1, 171));
-    padding: 6px;
+    padding: 8px;
     border-radius: 50px;
     text-decoration: none;
     display: block;
@@ -95,6 +95,7 @@ label {
 .ending {
     text-align: center;
     font-size: 12px;
+    margin-bottom: 30px;
 }
 
 .ending label {

@@ -52,7 +52,7 @@ body {
 }
 
 .forgot {
-  margin: 20px 14px;
+  margin: 16px 20px 40px 20px;
   /* margin-top: 14px; */
 }
 
@@ -68,7 +68,6 @@ label {
 
 .forgot span input[type="checkbox"] {
   transform: scale(1.2);
-  accent-color: blue;
 }
 
 .forgot span a {
@@ -79,3 +78,13 @@ label {
   letter-spacing: 0.1px;
   font-size: 15px;
 }
+
+.login a {
+    background: linear-gradient(to right, rgb(72, 99, 255), rgb(171, 1, 171));
+    width: 100%;
+    padding: 4px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+

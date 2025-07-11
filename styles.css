@@ -1,53 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    min-height: 100vh;
-    background: lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background: linear-gradient(to right, blue, rgb(236, 2, 236));  */
+  min-height: 100vh;
+  background: rgb(227, 227, 227);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(to right, blue, rgb(236, 2, 236));  */
 }
 
 .wrapper {
-    background: #fff;
-    border-radius: 10px;
-    width: 26%;
-    /* padding: 2rem; */
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 10px;
+  width: 26%;
+  /* padding: 2rem; */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
 }
 
 .heading {
-    background: linear-gradient(to right, rgb(72, 99, 255), rgb(171, 1, 171));
-    padding: 1.2rem;
-    text-align: center;
-    border-radius: 10px 10px 0 0;
+  background: linear-gradient(to right, rgb(72, 99, 255), rgb(171, 1, 171));
+  padding: 1.2rem;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
 }
 
-.heading h1{
-    color: #fff;
-    font-size: 32px;
-    font-weight: 500;
-    letter-spacing: 0.2px;
+.heading h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
 }
 
 .content {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .content input {
-    padding: 12px 16px;
-    width: 88%;
-    margin: 16px 20px 0 20px;
-    border: 1px solid lightgray;
-    border-radius: 50px;
-    font-size: 15px;
+  padding: 12px 16px;
+  width: 88%;
+  margin: 16px 20px 0 20px;
+  border: 1px solid lightgray;
+  border-radius: 50px;
+  font-size: 15px;
 }
 
+.forgot {
+  margin: 20px 14px;
+  /* margin-top: 14px; */
+}
+
+.forgot span {
+  width: 100%;
+}
+
+label {
+  font-size: 15px;
+  color: rgb(46, 46, 46);
+  letter-spacing: 0.1px;
+}
+
+.forgot span input[type="checkbox"] {
+  transform: scale(1.2);
+  accent-color: blue;
+}
+
+.forgot span a {
+  margin-left: 50px;
+  text-decoration: none;
+  color: rgb(72, 99, 255);
+  cursor: pointer;
+  letter-spacing: 0.1px;
+  font-size: 15px;
+}

@@ -21,7 +21,7 @@ body {
   border-radius: 10px;
   width: 24%;
   /* padding: 2rem; */
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .heading {
@@ -39,7 +39,7 @@ body {
 }
 
 .content {
-  margin-top: 10px;
+  margin: 10px;
 }
 
 .content input {
@@ -52,7 +52,7 @@ body {
 }
 
 .forgot {
-  margin: 10px 0 24px 20px;
+  margin: 10px 0 24px 30px;
   /* margin-top: 14px; */
 }
 
@@ -66,7 +66,7 @@ label {
 }
 
 .forgot span a {
-  margin-left: 50px;
+  margin-left: 34px;
   text-decoration: none;
   color: rgb(72, 99, 255);
   cursor: pointer;
@@ -75,15 +75,31 @@ label {
 
 .login a {
     background: linear-gradient(to right, rgb(72, 99, 255), rgb(171, 1, 171));
-    width: 88%;
     padding: 6px;
     border-radius: 50px;
     text-decoration: none;
     display: block;
     text-align: center;
-    margin: 0 20px;
+    margin: 0 30px 24px;
     color: #fff;
     font-size: 16px;
+}
+
+.ending {
+    text-align: center;
+    font-size: 12px;
+}
+
+.ending label {
+    text-align: center;
+    font-size: 12px;
+}
+
+.ending a {
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(72, 99, 255);
 }
 
 
